@@ -1,15 +1,24 @@
 {
-  "name": "Cartography of DH2019",
+  "name": "aiucd2020",
   "version": "1.0.0",
-  "description": "A map showing the lexical distance between authors within a conference",
-  "main": "index.js",
+  "description": "This visualization represents a map of individuals starting from their documents. It is based on the idea that authors can be described using their documents and that the vocabulary that authors share is an efficient way to draw a space. Individuals that make use of the same terms are situated nearby, beyond any social distance. The result is a continuo lexical space composed of individuals and terms.",
   "scripts": {
     "start": "webpack-dev-server --mode development",
     "build": "webpack --mode production"
   },
-  "keywords": ["data visualization", "academia", "map", "NLP", "conferences", "community"],
-  "author": "Dario Rodighiero",
-  "license": "MIT",
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodighiero/AIUCD2020.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rodighiero/AIUCD2020/issues"
+  },
+  "homepage": "https://github.com/rodighiero/AIUCD2020#readme",
   "devDependencies": {
     "@babel/core": "^7.7.2",
     "@babel/preset-env": "^7.7.1",

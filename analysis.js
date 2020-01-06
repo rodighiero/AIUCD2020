@@ -123,10 +123,10 @@ fs.readFile(__dirname + '/data/docs.json', (err, data) => {
 
     // Singularize
     const inflector = new natural.NounInflector()
-    items.forEach(item => item.tokens = item.tokens.map(t => inflector.singularize(t)))
+    // items.forEach(item => item.tokens = item.tokens.map(t => inflector.singularize(t)))
 
     // Cleaning
-    const stopWords = ['thi', 'div', 'allora', '000', 'ved', 'thu', 'not', 'mos', 'will']
+    const stopWords = ['thi', 'div', 'allora', '000', 'ved', 'thu', 'not', 'mos', 'will', 'attraverso', 'let']
     items.forEach(item => item.tokens = item.tokens.filter(token => token.length > 2))
     items.forEach(item => item.tokens = item.tokens.filter(token => !stopWords.includes(token)))
     items.forEach(item => item.tokens = item.tokens.filter(token => !parseInt(token)))

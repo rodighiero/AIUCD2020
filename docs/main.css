@@ -35,7 +35,7 @@ a {
 	 * Containers		
 ******************************************************************************/
 
-#focus, #title, #searchWrapper {
+#focus, #title, #searchWrapper, #warning {
 	background-color: rgba(255,255,255,.1);
 	position: absolute;
 	border: none;
@@ -54,6 +54,11 @@ a {
 #searchWrapper {
 	right: 0;
 	top: 10;
+}
+
+#warning {
+	left: 0;
+	bottom: 10;
 }
 
 h1 {

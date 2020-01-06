@@ -18,7 +18,7 @@ const _computeDensityData = () => {
         .weight(d => d.docs)
         .size([width, height])
         // .cellSize(10) // Crispness (1 = best resolution)
-        // .bandwidth(20) // Expansion of reliefs (40 = high simplification)
+        .bandwidth(30) // Expansion of reliefs (40 = high simplification)
         // .thresholds(10) // Indicative number of levels
         (s.nodes)
 

@@ -3,8 +3,9 @@ import { s } from './state'
 export default () => {
 
     const max = 1
-    const d_min = Math.pow(s.distance, 2)
-    const d_max = Math.pow(s.distance * 2, 2)
+    const rounding = 5
+    const d_min = Math.pow(s.distance, 2) - rounding
+    const d_max = Math.pow(s.distance * 2, 2) + rounding
     let rectangles = []
 
     const overlap = current => {

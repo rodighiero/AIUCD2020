@@ -2,16 +2,20 @@
 	{
 		"id": 1,
 		"title": "EcoDigit-Ecosistema Digitale per la fruizione e la valorizzazione dei beni e delle attività culturali del Lazio",
+		"abstract": {
+			"it": "EcoDigit \u00E8 uno dei progetti del \u201CCentro di Eccellenza DTC Lazio\u201D, che ha\r\nl\u2019obiettivo di aggregare e integrare varie competenze nell\u2019ambito del patrimonio culturale\r\ndigitale. EcoDigit intende aricchire il sistema dell\u2019Anagrafe delle Competenze, altro progetto del\r\nDTC Lazio, con una piattaforma middleware che faciliti l\u2019integrazione di nuove risorse di dati\r\ne permetta la pubblicazione e riuso di servizi per la valorizzazione e fruizione del patrimonio\r\nculturale nella regione Lazio. Il progetto \u00E8 finalizzato all\u2019integrazione dei dati censiti attraverso\r\nformati aperti e tecnologie semantiche basate sul modello Linked data.",
+			"en": "EcoDigit is one of the projects of the \u201CCentro di Eccellenza DTC Lazio\u201D, which intends\r\nto aggregate and integrate expertises in the field of technologies applied to cultural heritage.\r\nEcoDigit aims at enriching the Anagrafe delle Competenze, another project of the DTC Lazio,\r\nwith a middleware platform that is able to facilitate the integration of new data sources and\r\nto allow the publication and reuse of services for the enhancement and fruition of the cultural\r\nheritage in the Lazio region. The project is designed to integrate the collected data through open\r\nformats and semantic technologies based on Linked Data model."
+		},
 		"authors": [
 			"Luigi Asprino",
 			"Antonio Budano",
-			"Marco Canciani", 
-			"Luisa Carbone", 
-			"Miguel Ceriani", 
-			"Ludovica Marinucci", 
-			"Massimo Mecella", 
-			"Federico Meschini", 
-			"Marialuisa Mongelli", 
+			"Marco Canciani",
+			"Luisa Carbone",
+			"Miguel Ceriani",
+			"Ludovica Marinucci",
+			"Massimo Mecella",
+			"Federico Meschini",
+			"Marialuisa Mongelli",
 			"Andrea Giovanni Nuzzolese",
 			"Valentina Presutti",
 			"Marco Puccini",
@@ -22,6 +26,10 @@
 	{
 		"id": 2,
 		"title": "Encoding the critical apparatus by domain specific languages: The case of the Hebrew book of Qohelet",
+		"abstract": {
+			"it": "",
+			"en": ""
+		},
 		"authors": [
 			"Gianfranco Bandini",
 			"Andrea Mangiatordi"
@@ -31,6 +39,10 @@
 	{
 		"id": 3,
 		"title": "600 maestri raccontano la loro vita professionale in video: un progetto di (fully searchable) open data",
+		"abstract": {
+			"it": "",
+			"en": ""
+		},
 		"authors": [
 			"Gianfranco Bandini",
 			"Andrea Mangiatordi"
@@ -40,6 +52,10 @@
 	{
 		"id": 4,
 		"title": "Ripensare i dati come risorse digitali: Un processo difficile?",
+		"abstract": {
+			"it": "",
+			"en": ""
+		},
 		"authors": [
 			"Nicola Barbuti"
 		],
@@ -48,6 +64,10 @@
 	{
 		"id": 5,
 		"title": "Verso il riconoscimento delle Digital Humanities come area scientifica: Il catalogo online condiviso delle pubblicazioni dell’AIUCD",
+		"abstract": {
+			"it": "",
+			"en": ""
+		},
 		"authors": [
 			"Nicola Barbuti",
 			"Maurizio Lana",
@@ -58,6 +78,10 @@
 	{
 		"id": 6,
 		"title": "Il trattamento automatico del linguaggio applicato all'italiano volgare. La redazione di un formario tratto dalle prime dieci Lettere di Alessandra M. Strozzi",
+		"abstract": {
+			"it": "",
+			"en": ""
+		},
 		"authors": [
 			"Ottavia Bersano",
 			"Nadezda Okinina"
@@ -67,6 +91,10 @@
 	{
 		"id": 7,
 		"title": "Annotazione semantica e visualizzazione di un corpus di corrispondenze di guerra",
+		"abstract": {
+			"it": "",
+			"en": ""
+		},
 		"authors": [
 			"Beatrice Dal Bo",
 			"Francesca Frontini",
@@ -77,6 +105,10 @@
 	{
 		"id": 8,
 		"title": "The use of parallel corpora for a contrastive (Russian-Italian) description of resource markers: new instruments compared to traditional lexicography",
+		"abstract": {
+			"it": "",
+			"en": ""
+		},
 		"authors": [
 			"Anna Bonola",
 			"Valentina Noseda"
@@ -86,6 +118,10 @@
 	{
 		"id": 9,
 		"title": "PhiloEditor: simplified HTML markup for interpretative pathways over literary collections",
+		"abstract": {
+			"it": "",
+			"en": ""
+		},
 		"authors": [
 			"Claudia Bonsi",
 			"Angelo Di Iorio",
@@ -99,6 +135,10 @@
 	{
 		"id": 10,
 		"title": "An empirical study of versioning in Digital Scholarly Editions",
+		"abstract": {
+			"it": "",
+			"en": ""
+		},
 		"authors": [
 			"Martina Bürgermeister"
 		],
@@ -107,6 +147,10 @@
 	{
 		"id": 11,
 		"title": "ELA: fasi del progetto, bilanci e prospettive",
+		"abstract": {
+			"it": "",
+			"en": ""
+		},
 		"authors": [
 			"Emmanuela Carbé",
 			"Nicola Giannelli"
@@ -116,6 +160,10 @@
 	{
 		"id": 12,
 		"title": "Digitized and Digitalized Humanities: Words and Identity",
+		"abstract": {
+			"it": "",
+			"en": ""
+		},
 		"authors": [
 			"Claire Clivaz"
 		],
@@ -124,6 +172,10 @@
 	{
 		"id": 13,
 		"title": "La geolinguistica digitale e le sfide lessicografiche nell’era delle digital humanities: l’esempio di VerbaAlpina",
+		"abstract": {
+			"it": "",
+			"en": ""
+		},
 		"authors": [
 			"Beatrice Colcuc"
 		],
@@ -132,6 +184,10 @@
 	{
 		"id": 14,
 		"title": "Digital projects for music research and education from the Center for Music Research and Documentation (CIDoM), Associated Unit of the Spanish National Research Council",
+		"abstract": {
+			"it": "",
+			"en": ""
+		},
 		"authors": [
 			"Juan José Pastor Comín",
 			"Francisco Manuel López Gómez"
@@ -141,6 +197,10 @@
 	{
 		"id": 15,
 		"title": "Una proposta di ontologia basata su RDA per il patrimonio culturale di Vincenzo Bellini",
+		"abstract": {
+			"it": "",
+			"en": ""
+		},
 		"authors": [
 			"Salvatore Cristofaro",
 			"Daria Spampinato"
@@ -150,6 +210,10 @@
 	{
 		"id": 16,
 		"title": "Biblioteche di conservazione e libera fruizione dei manoscritti digitalizzati: la Veneranda Biblioteca Ambrosiana e la svolta inevitabile grazie a IIIF",
+		"abstract": {
+			"it": "",
+			"en": ""
+		},
 		"authors": [
 			"Fabio Cusimano"
 		],
@@ -158,6 +222,10 @@
 	{
 		"id": 17,
 		"title": "Repertori terminologici plurilingui fra normatività e uso nella comunicazione digitale istituzionale e professionale",
+		"abstract": {
+			"it": "",
+			"en": ""
+		},
 		"authors": [
 			"Klara Dankova",
 			"Silvia Calvi"
@@ -167,6 +235,10 @@
 	{
 		"id": 18,
 		"title": "The digital Lexicon Translaticium Latinum: Theoretical and methodological issues",
+		"abstract": {
+			"it": "",
+			"en": ""
+		},
 		"authors": [
 			"Chiara Fedriani",
 			"Irene De Felice",
@@ -177,6 +249,10 @@
 	{
 		"id": 19,
 		"title": "Selling autograph manuscripts in 19th c. Paris: Digitising the Revue des Autographes",
+		"abstract": {
+			"it": "",
+			"en": ""
+		},
 		"authors": [
 			"Simon Gabay",
 			"Lucie Rondeau du Noyer",
@@ -187,6 +263,10 @@
 	{
 		"id": 20,
 		"title": "Enriching a Multilingual Terminology Exploiting Parallel Texts: an Experiment on the Italian Translation of the Babylonian Talmud",
+		"abstract": {
+			"it": "",
+			"en": ""
+		},
 		"authors": [
 			"Angelo Mario Del Grosso",
 			"Emiliano Giovannetti",
@@ -197,6 +277,10 @@
 	{
 		"id": 21,
 		"title": "Towards a lexical standard for the representation of etymological data",
+		"abstract": {
+			"it": "",
+			"en": ""
+		},
 		"authors": [
 			"Fahad Khan",
 			"Jack Bowers"
@@ -206,6 +290,10 @@
 	{
 		"id": 22,
 		"title": "Workflows, digital data management and curation in the RETOPEA project",
+		"abstract": {
+			"it": "",
+			"en": ""
+		},
 		"authors": [
 			"Ilenia Eleonor Laudito"
 		],
@@ -214,6 +302,10 @@
 	{
 		"id": 23,
 		"title": "Il confronto con Wikipedia come occasione di valorizzazione professionale: il case study di Biblioteca digitale BEIC",
+		"abstract": {
+			"it": "",
+			"en": ""
+		},
 		"authors": [
 			"Lisa Longhi"
 		],
@@ -222,6 +314,10 @@
 	{
 		"id": 24,
 		"title": "Making a Digital Edition: The Petrarchive Project",
+		"abstract": {
+			"it": "",
+			"en": ""
+		},
 		"authors": [
 			"Isabella Magni"
 		],
@@ -230,6 +326,10 @@
 	{
 		"id": 25,
 		"title": "Extending the DSE: LOD support and TEI/IIIF integration in EVT",
+		"abstract": {
+			"it": "",
+			"en": ""
+		},
 		"authors": [
 			"Paolo Monella",
 			"Roberto Rosselli Del Turco"
@@ -239,6 +339,10 @@
 	{
 		"id": 26,
 		"title": "Mapping as a contemporary instrument for orientation in conferences",
+		"abstract": {
+			"it": "",
+			"en": ""
+		},
 		"authors": [
 			"Chloe Ye-Eun Moon",
 			"Dario Rodighiero"
@@ -248,6 +352,10 @@
 	{
 		"id": 27,
 		"title": "Argumentation mapping for the History of philosophical and scientific ideas: The TheSu annotation scheme and its application to Plutarch’s Aquane an ignis",
+		"abstract": {
+			"it": "",
+			"en": ""
+		},
 		"authors": [
 			"Daniele Morrone"
 		],
@@ -256,6 +364,10 @@
 	{
 		"id": 28,
 		"title": "Leitwort Detection, Quantification and Discernment",
+		"abstract": {
+			"it": "",
+			"en": ""
+		},
 		"authors": [
 			"Racheli Moskowitz",
 			"Moriyah Schick",
@@ -266,6 +378,10 @@
 	{
 		"id": 29,
 		"title": "From copies to an original: the contribution of statistical methods",
+		"abstract": {
+			"it": "",
+			"en": ""
+		},
 		"authors": [
 			"Amanda Murphy",
 			"Raffaella Zardoni",
@@ -276,6 +392,10 @@
 	{
 		"id": 30,
 		"title": "FORMAL. Mapping Fountains over time and place. Mappare il movimento delle fontane monumentali nel tempo e nello spazio attraverso la geovisualizzazione",
+		"abstract": {
+			"it": "",
+			"en": ""
+		},
 		"authors": [
 			"Pamela Palomba",
 			"Emanuele Garzia",
@@ -286,6 +406,10 @@
 	{
 		"id": 31,
 		"title": "Paul is dead? Differences and similarities before and after Paul McCartney’s supposed death. Stylometric analysis of transcribed interviews",
+		"abstract": {
+			"it": "",
+			"en": ""
+		},
 		"authors": [
 			"Antonio Pascucci",
 			"Raffaele Manna",
@@ -297,6 +421,10 @@
 	{
 		"id": 32,
 		"title": "Prospects for Computational Hermeneutics",
+		"abstract": {
+			"it": "",
+			"en": ""
+		},
 		"authors": [
 			"Michael Piotrowski",
 			"Markus Neuwirth"
@@ -306,6 +434,10 @@
 	{
 		"id": 33,
 		"title": "EModSar: A corpus of Early Modern Sardinian Texts",
+		"abstract": {
+			"it": "",
+			"en": ""
+		},
 		"authors": [
 			"Nicoletta Puddu",
 			"Luigi Talamo"
@@ -315,6 +447,10 @@
 	{
 		"id": 34,
 		"title": "Shared emotions in reading Pirandello. An experiment with Sentiment Analysis",
+		"abstract": {
+			"it": "",
+			"en": ""
+		},
 		"authors": [
 			"Simone Rebora"
 		],
@@ -323,6 +459,10 @@
 	{
 		"id": 35,
 		"title": "DH as an ideal educational environment: the Ethnographic Museum of La Spezia",
+		"abstract": {
+			"it": "",
+			"en": ""
+		},
 		"authors": [
 			"Letizia Ricci",
 			"Francesco Melighetti",
@@ -335,6 +475,10 @@
 	{
 		"id": 36,
 		"title": "A digital review of criticals edition: A case study on Sophocles, Ajax 1-332",
+		"abstract": {
+			"it": "",
+			"en": ""
+		},
 		"authors": [
 			"Camilla Rossini"
 		],
@@ -343,6 +487,10 @@
 	{
 		"id": 37,
 		"title": "Strategie e metodi per il recupero di dizionari storici",
+		"abstract": {
+			"it": "",
+			"en": ""
+		},
 		"authors": [
 			"Eva Sassolini",
 			"Marco Biffi"
@@ -352,6 +500,10 @@
 	{
 		"id": 38,
 		"title": "Encoding Byzantine Seals: SigiDoc",
+		"abstract": {
+			"it": "",
+			"en": ""
+		},
 		"authors": [
 			"Alessio Sopracasa",
 			"Martina Filosa"
@@ -361,6 +513,10 @@
 	{
 		"id": 39,
 		"title": "Preliminary results on mapping digital humanities research",
+		"abstract": {
+			"it": "",
+			"en": ""
+		},
 		"authors": [
 			"Gianmarco Spinaci",
 			"Giovanni Colavizza",
@@ -371,6 +527,10 @@
 	{
 		"id": 40,
 		"title": "Epistolario De Gasperi: National Edition of De Gasperi’s Letters in Digital Format",
+		"abstract": {
+			"it": "",
+			"en": ""
+		},
 		"authors": [
 			"Sara Tonelli",
 			"Rachele Sprugnoli",
@@ -383,6 +543,10 @@
 	{
 		"id": 41,
 		"title": "Visualizing Romanesco; or, Old Data, New Insights",
+		"abstract": {
+			"it": "",
+			"en": ""
+		},
 		"authors": [
 			"Gianluca Valenti"
 		],
@@ -391,6 +555,10 @@
 	{
 		"id": 42,
 		"title": "What is a last letter? A linguistics/preventive analysis of prisoner letters from the two World Wars",
+		"abstract": {
+			"it": "",
+			"en": ""
+		},
 		"authors": [
 			"Giovanni Pietro Vitali"
 		],
@@ -399,6 +567,10 @@
 	{
 		"id": 43,
 		"title": "L’organizzazione e la descrizione di un fondo nativo digitale: PAD e l’Archivio Franco Buffoni",
+		"abstract": {
+			"it": "",
+			"en": ""
+		},
 		"authors": [
 			"Paul Gabriele Weston",
 			"Primo Baldini",

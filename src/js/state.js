@@ -4,7 +4,7 @@ const fontSizeKeywords = 1.2
 
 export let s = {
 
-    distance: 25,
+    distance: 40,
     densityData: [],
     zoomState: null,
     zoomExtent: [1, 8],
@@ -44,7 +44,7 @@ export let s = {
 
         s.keywordScale = d3.scaleLinear()
             .domain(s.linkExtent)
-            .range([s.zoomExtent[1] + 1, s.zoomExtent[0] - 10])
+            .range([s.zoomExtent[1] + 1, s.zoomExtent[0] - 5])
 
         s.fontScale = d3.scaleLinear()
             .domain(s.linkExtent)

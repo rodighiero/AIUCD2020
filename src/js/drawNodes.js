@@ -13,9 +13,9 @@ export default () => {
         const name = node.id.split(', '),
             x = node.x,
             y = node.y
-        s.context.fillText(name[1], x, y - shift)
-        s.context.fillText(name[0], x, y)
-        s.context.fillText(`(${node.docs})`, x, y + shift)
+        // s.context.fillText(name[1], x, y - shift)
+        s.context.fillText(name[0], x, y - shift/2)
+        s.context.fillText(`(${node.docs})`, x, y + shift/2)
     })
 
     s.context.fill()

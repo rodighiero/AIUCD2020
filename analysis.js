@@ -126,15 +126,16 @@ fs.readFile(__dirname + '/data/docs.json', (err, data) => {
     items.forEach(item => item.tokens = item.tokens.map(t => inflector.singularize(t)))
 
     // Cleaning
-    const stopWords = ['humanity', 'digital', 'data', 'dh', 'http', 'www', '00', 'la', 'research', 'thi', 'community', 'project', 'ko', 'colavizza', 'yeat', 'new', 'corpu', 'censu', 'oo', 'short', 'number', 'figure', 'big', 'international', 'oldest', 'early', 'able', 'ealiest', 'easy', 'sector', 'gb1900']
+    const stopWords = ['thi', 'div', 'allora', '000', 'ved', 'thu']
+    items.forEach(item => item.tokens = item.tokens.filter(token => token.length > 2))
     items.forEach(item => item.tokens = item.tokens.filter(token => !stopWords.includes(token)))
     items.forEach(item => item.tokens = item.tokens.filter(token => !parseInt(token)))
     items.forEach(item => item.tokens = sw.removeStopwords(item.tokens))
-    items.forEach(item => item.tokens = sw.removeStopwords(item.tokens, sw.br))
-    items.forEach(item => item.tokens = sw.removeStopwords(item.tokens, sw.de))
-    items.forEach(item => item.tokens = sw.removeStopwords(item.tokens, sw.fr))
+    // items.forEach(item => item.tokens = sw.removeStopwords(item.tokens, sw.br))
+    // items.forEach(item => item.tokens = sw.removeStopwords(item.tokens, sw.de))
+    // items.forEach(item => item.tokens = sw.removeStopwords(item.tokens, sw.fr))
     items.forEach(item => item.tokens = sw.removeStopwords(item.tokens, sw.it))
-    items.forEach(item => item.tokens = sw.removeStopwords(item.tokens, sw.pt))
+    // items.forEach(item => item.tokens = sw.removeStopwords(item.tokens, sw.pt))
 
     // TF-IDF
     const tokenFrequency = new natural.TfIdf()
@@ -144,7 +145,7 @@ fs.readFile(__dirname + '/data/docs.json', (err, data) => {
     })
 
     // 15 is a good value for final version; it can be lowered for testing
-    const tfidfLimit = 20
+    const tfidfLimit = 30
 
     items.forEach((item, i) => {
         console.log('Reducing tokens for author #', i)

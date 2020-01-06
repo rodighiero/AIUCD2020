@@ -3931,7 +3931,7 @@
 	{
 		"source": "Claudia Bonsi",
 		"target": "Angelo Di Iorio",
-		"value": 0.6008267220696056,
+		"value": 0.5988170549490716,
 		"tokens": {
 			"html": 153.5220348642502,
 			"elements": 144.7356371236098,
@@ -3954,7 +3954,6 @@
 			"patterns": 48.99489299587587,
 			"within": 47.40812105567847,
 			"pattern": 45.179085566802605,
-			"its": 44.455142606782154,
 			"container": 43.96092628894779,
 			"hence": 43.96092628894779,
 			"document": 42.594053901747365,
@@ -3962,7 +3961,8 @@
 			"xml": 40.00282711730693,
 			"used": 38.943799134218665,
 			"created": 38.312374532720234,
-			"placed": 37.870020404204624
+			"placed": 37.870020404204624,
+			"display": 37.680793961955246
 		}
 	},
 	{
@@ -4000,7 +4000,7 @@
 	{
 		"source": "Claudia Bonsi",
 		"target": "Paola Italia",
-		"value": 0.6008267220696056,
+		"value": 0.5988170549490716,
 		"tokens": {
 			"html": 153.5220348642502,
 			"elements": 144.7356371236098,
@@ -4023,7 +4023,6 @@
 			"patterns": 48.99489299587587,
 			"within": 47.40812105567847,
 			"pattern": 45.179085566802605,
-			"its": 44.455142606782154,
 			"container": 43.96092628894779,
 			"hence": 43.96092628894779,
 			"document": 42.594053901747365,
@@ -4031,13 +4030,14 @@
 			"xml": 40.00282711730693,
 			"used": 38.943799134218665,
 			"created": 38.312374532720234,
-			"placed": 37.870020404204624
+			"placed": 37.870020404204624,
+			"display": 37.680793961955246
 		}
 	},
 	{
 		"source": "Angelo Di Iorio",
 		"target": "Paola Italia",
-		"value": 0.6008267220696056,
+		"value": 0.5988170549490716,
 		"tokens": {
 			"html": 153.5220348642502,
 			"elements": 144.7356371236098,
@@ -4060,7 +4060,6 @@
 			"patterns": 48.99489299587587,
 			"within": 47.40812105567847,
 			"pattern": 45.179085566802605,
-			"its": 44.455142606782154,
 			"container": 43.96092628894779,
 			"hence": 43.96092628894779,
 			"document": 42.594053901747365,
@@ -4068,7 +4067,8 @@
 			"xml": 40.00282711730693,
 			"used": 38.943799134218665,
 			"created": 38.312374532720234,
-			"placed": 37.870020404204624
+			"placed": 37.870020404204624,
+			"display": 37.680793961955246
 		}
 	},
 	{
@@ -4106,7 +4106,7 @@
 	{
 		"source": "Claudia Bonsi",
 		"target": "Francesca Tomasi",
-		"value": 0.6008267220696056,
+		"value": 0.5988170549490716,
 		"tokens": {
 			"html": 153.5220348642502,
 			"elements": 144.7356371236098,
@@ -4129,7 +4129,6 @@
 			"patterns": 48.99489299587587,
 			"within": 47.40812105567847,
 			"pattern": 45.179085566802605,
-			"its": 44.455142606782154,
 			"container": 43.96092628894779,
 			"hence": 43.96092628894779,
 			"document": 42.594053901747365,
@@ -4137,13 +4136,14 @@
 			"xml": 40.00282711730693,
 			"used": 38.943799134218665,
 			"created": 38.312374532720234,
-			"placed": 37.870020404204624
+			"placed": 37.870020404204624,
+			"display": 37.680793961955246
 		}
 	},
 	{
 		"source": "Angelo Di Iorio",
 		"target": "Francesca Tomasi",
-		"value": 0.6008267220696056,
+		"value": 0.5988170549490716,
 		"tokens": {
 			"html": 153.5220348642502,
 			"elements": 144.7356371236098,
@@ -4166,7 +4166,6 @@
 			"patterns": 48.99489299587587,
 			"within": 47.40812105567847,
 			"pattern": 45.179085566802605,
-			"its": 44.455142606782154,
 			"container": 43.96092628894779,
 			"hence": 43.96092628894779,
 			"document": 42.594053901747365,
@@ -4174,13 +4173,14 @@
 			"xml": 40.00282711730693,
 			"used": 38.943799134218665,
 			"created": 38.312374532720234,
-			"placed": 37.870020404204624
+			"placed": 37.870020404204624,
+			"display": 37.680793961955246
 		}
 	},
 	{
 		"source": "Paola Italia",
 		"target": "Francesca Tomasi",
-		"value": 0.6008267220696056,
+		"value": 0.5988170549490716,
 		"tokens": {
 			"html": 153.5220348642502,
 			"elements": 144.7356371236098,
@@ -4203,7 +4203,6 @@
 			"patterns": 48.99489299587587,
 			"within": 47.40812105567847,
 			"pattern": 45.179085566802605,
-			"its": 44.455142606782154,
 			"container": 43.96092628894779,
 			"hence": 43.96092628894779,
 			"document": 42.594053901747365,
@@ -4211,7 +4210,8 @@
 			"xml": 40.00282711730693,
 			"used": 38.943799134218665,
 			"created": 38.312374532720234,
-			"placed": 37.870020404204624
+			"placed": 37.870020404204624,
+			"display": 37.680793961955246
 		}
 	},
 	{
@@ -4249,7 +4249,7 @@
 	{
 		"source": "Claudia Bonsi",
 		"target": "Fabio Vitali",
-		"value": 0.6008267220696056,
+		"value": 0.5988170549490716,
 		"tokens": {
 			"html": 153.5220348642502,
 			"elements": 144.7356371236098,
@@ -4272,7 +4272,6 @@
 			"patterns": 48.99489299587587,
 			"within": 47.40812105567847,
 			"pattern": 45.179085566802605,
-			"its": 44.455142606782154,
 			"container": 43.96092628894779,
 			"hence": 43.96092628894779,
 			"document": 42.594053901747365,
@@ -4280,13 +4279,14 @@
 			"xml": 40.00282711730693,
 			"used": 38.943799134218665,
 			"created": 38.312374532720234,
-			"placed": 37.870020404204624
+			"placed": 37.870020404204624,
+			"display": 37.680793961955246
 		}
 	},
 	{
 		"source": "Angelo Di Iorio",
 		"target": "Fabio Vitali",
-		"value": 0.6008267220696056,
+		"value": 0.5988170549490716,
 		"tokens": {
 			"html": 153.5220348642502,
 			"elements": 144.7356371236098,
@@ -4309,7 +4309,6 @@
 			"patterns": 48.99489299587587,
 			"within": 47.40812105567847,
 			"pattern": 45.179085566802605,
-			"its": 44.455142606782154,
 			"container": 43.96092628894779,
 			"hence": 43.96092628894779,
 			"document": 42.594053901747365,
@@ -4317,13 +4316,14 @@
 			"xml": 40.00282711730693,
 			"used": 38.943799134218665,
 			"created": 38.312374532720234,
-			"placed": 37.870020404204624
+			"placed": 37.870020404204624,
+			"display": 37.680793961955246
 		}
 	},
 	{
 		"source": "Paola Italia",
 		"target": "Fabio Vitali",
-		"value": 0.6008267220696056,
+		"value": 0.5988170549490716,
 		"tokens": {
 			"html": 153.5220348642502,
 			"elements": 144.7356371236098,
@@ -4346,7 +4346,6 @@
 			"patterns": 48.99489299587587,
 			"within": 47.40812105567847,
 			"pattern": 45.179085566802605,
-			"its": 44.455142606782154,
 			"container": 43.96092628894779,
 			"hence": 43.96092628894779,
 			"document": 42.594053901747365,
@@ -4354,13 +4353,14 @@
 			"xml": 40.00282711730693,
 			"used": 38.943799134218665,
 			"created": 38.312374532720234,
-			"placed": 37.870020404204624
+			"placed": 37.870020404204624,
+			"display": 37.680793961955246
 		}
 	},
 	{
 		"source": "Francesca Tomasi",
 		"target": "Fabio Vitali",
-		"value": 0.6008267220696056,
+		"value": 0.5988170549490716,
 		"tokens": {
 			"html": 153.5220348642502,
 			"elements": 144.7356371236098,
@@ -4383,7 +4383,6 @@
 			"patterns": 48.99489299587587,
 			"within": 47.40812105567847,
 			"pattern": 45.179085566802605,
-			"its": 44.455142606782154,
 			"container": 43.96092628894779,
 			"hence": 43.96092628894779,
 			"document": 42.594053901747365,
@@ -4391,7 +4390,8 @@
 			"xml": 40.00282711730693,
 			"used": 38.943799134218665,
 			"created": 38.312374532720234,
-			"placed": 37.870020404204624
+			"placed": 37.870020404204624,
+			"display": 37.680793961955246
 		}
 	},
 	{
@@ -4429,7 +4429,7 @@
 	{
 		"source": "Claudia Bonsi",
 		"target": "Ersilia Russo",
-		"value": 0.6008267220696056,
+		"value": 0.5988170549490716,
 		"tokens": {
 			"html": 153.5220348642502,
 			"elements": 144.7356371236098,
@@ -4452,7 +4452,6 @@
 			"patterns": 48.99489299587587,
 			"within": 47.40812105567847,
 			"pattern": 45.179085566802605,
-			"its": 44.455142606782154,
 			"container": 43.96092628894779,
 			"hence": 43.96092628894779,
 			"document": 42.594053901747365,
@@ -4460,13 +4459,14 @@
 			"xml": 40.00282711730693,
 			"used": 38.943799134218665,
 			"created": 38.312374532720234,
-			"placed": 37.870020404204624
+			"placed": 37.870020404204624,
+			"display": 37.680793961955246
 		}
 	},
 	{
 		"source": "Angelo Di Iorio",
 		"target": "Ersilia Russo",
-		"value": 0.6008267220696056,
+		"value": 0.5988170549490716,
 		"tokens": {
 			"html": 153.5220348642502,
 			"elements": 144.7356371236098,
@@ -4489,7 +4489,6 @@
 			"patterns": 48.99489299587587,
 			"within": 47.40812105567847,
 			"pattern": 45.179085566802605,
-			"its": 44.455142606782154,
 			"container": 43.96092628894779,
 			"hence": 43.96092628894779,
 			"document": 42.594053901747365,
@@ -4497,13 +4496,14 @@
 			"xml": 40.00282711730693,
 			"used": 38.943799134218665,
 			"created": 38.312374532720234,
-			"placed": 37.870020404204624
+			"placed": 37.870020404204624,
+			"display": 37.680793961955246
 		}
 	},
 	{
 		"source": "Paola Italia",
 		"target": "Ersilia Russo",
-		"value": 0.6008267220696056,
+		"value": 0.5988170549490716,
 		"tokens": {
 			"html": 153.5220348642502,
 			"elements": 144.7356371236098,
@@ -4526,7 +4526,6 @@
 			"patterns": 48.99489299587587,
 			"within": 47.40812105567847,
 			"pattern": 45.179085566802605,
-			"its": 44.455142606782154,
 			"container": 43.96092628894779,
 			"hence": 43.96092628894779,
 			"document": 42.594053901747365,
@@ -4534,13 +4533,14 @@
 			"xml": 40.00282711730693,
 			"used": 38.943799134218665,
 			"created": 38.312374532720234,
-			"placed": 37.870020404204624
+			"placed": 37.870020404204624,
+			"display": 37.680793961955246
 		}
 	},
 	{
 		"source": "Francesca Tomasi",
 		"target": "Ersilia Russo",
-		"value": 0.6008267220696056,
+		"value": 0.5988170549490716,
 		"tokens": {
 			"html": 153.5220348642502,
 			"elements": 144.7356371236098,
@@ -4563,7 +4563,6 @@
 			"patterns": 48.99489299587587,
 			"within": 47.40812105567847,
 			"pattern": 45.179085566802605,
-			"its": 44.455142606782154,
 			"container": 43.96092628894779,
 			"hence": 43.96092628894779,
 			"document": 42.594053901747365,
@@ -4571,13 +4570,14 @@
 			"xml": 40.00282711730693,
 			"used": 38.943799134218665,
 			"created": 38.312374532720234,
-			"placed": 37.870020404204624
+			"placed": 37.870020404204624,
+			"display": 37.680793961955246
 		}
 	},
 	{
 		"source": "Fabio Vitali",
 		"target": "Ersilia Russo",
-		"value": 0.6008267220696056,
+		"value": 0.5988170549490716,
 		"tokens": {
 			"html": 153.5220348642502,
 			"elements": 144.7356371236098,
@@ -4600,7 +4600,6 @@
 			"patterns": 48.99489299587587,
 			"within": 47.40812105567847,
 			"pattern": 45.179085566802605,
-			"its": 44.455142606782154,
 			"container": 43.96092628894779,
 			"hence": 43.96092628894779,
 			"document": 42.594053901747365,
@@ -4608,7 +4607,8 @@
 			"xml": 40.00282711730693,
 			"used": 38.943799134218665,
 			"created": 38.312374532720234,
-			"placed": 37.870020404204624
+			"placed": 37.870020404204624,
+			"display": 37.680793961955246
 		}
 	},
 	{
@@ -5008,54 +5008,6 @@
 		"value": 0.017306589235914528,
 		"tokens": {
 			"aiucd": 58.33845224364122
-		}
-	},
-	{
-		"source": "Claudia Bonsi",
-		"target": "Claire Clivaz",
-		"value": 0.015385987687689258,
-		"tokens": {
-			"its": 51.86433304124584
-		}
-	},
-	{
-		"source": "Angelo Di Iorio",
-		"target": "Claire Clivaz",
-		"value": 0.015385987687689258,
-		"tokens": {
-			"its": 51.86433304124584
-		}
-	},
-	{
-		"source": "Paola Italia",
-		"target": "Claire Clivaz",
-		"value": 0.015385987687689258,
-		"tokens": {
-			"its": 51.86433304124584
-		}
-	},
-	{
-		"source": "Francesca Tomasi",
-		"target": "Claire Clivaz",
-		"value": 0.015385987687689258,
-		"tokens": {
-			"its": 51.86433304124584
-		}
-	},
-	{
-		"source": "Fabio Vitali",
-		"target": "Claire Clivaz",
-		"value": 0.015385987687689258,
-		"tokens": {
-			"its": 51.86433304124584
-		}
-	},
-	{
-		"source": "Ersilia Russo",
-		"target": "Claire Clivaz",
-		"value": 0.015385987687689258,
-		"tokens": {
-			"its": 51.86433304124584
 		}
 	},
 	{
@@ -8541,75 +8493,61 @@
 	{
 		"source": "Claudia Bonsi",
 		"target": "Daniele Morrone",
-		"value": 0.11211341763292329,
+		"value": 0.0932106327594765,
 		"tokens": {
 			"elements": 127.70791510906746,
 			"element": 87.12519551814455,
-			"text": 99.36883718084502,
-			"its": 63.71903773638776
+			"text": 99.36883718084502
 		}
 	},
 	{
 		"source": "Angelo Di Iorio",
 		"target": "Daniele Morrone",
-		"value": 0.11211341763292329,
+		"value": 0.0932106327594765,
 		"tokens": {
 			"elements": 127.70791510906746,
 			"element": 87.12519551814455,
-			"text": 99.36883718084502,
-			"its": 63.71903773638776
+			"text": 99.36883718084502
 		}
 	},
 	{
 		"source": "Paola Italia",
 		"target": "Daniele Morrone",
-		"value": 0.11211341763292329,
+		"value": 0.0932106327594765,
 		"tokens": {
 			"elements": 127.70791510906746,
 			"element": 87.12519551814455,
-			"text": 99.36883718084502,
-			"its": 63.71903773638776
+			"text": 99.36883718084502
 		}
 	},
 	{
 		"source": "Francesca Tomasi",
 		"target": "Daniele Morrone",
-		"value": 0.11211341763292329,
+		"value": 0.0932106327594765,
 		"tokens": {
 			"elements": 127.70791510906746,
 			"element": 87.12519551814455,
-			"text": 99.36883718084502,
-			"its": 63.71903773638776
+			"text": 99.36883718084502
 		}
 	},
 	{
 		"source": "Fabio Vitali",
 		"target": "Daniele Morrone",
-		"value": 0.11211341763292329,
+		"value": 0.0932106327594765,
 		"tokens": {
 			"elements": 127.70791510906746,
 			"element": 87.12519551814455,
-			"text": 99.36883718084502,
-			"its": 63.71903773638776
+			"text": 99.36883718084502
 		}
 	},
 	{
 		"source": "Ersilia Russo",
 		"target": "Daniele Morrone",
-		"value": 0.11211341763292329,
+		"value": 0.0932106327594765,
 		"tokens": {
 			"elements": 127.70791510906746,
 			"element": 87.12519551814455,
-			"text": 99.36883718084502,
-			"its": 63.71903773638776
-		}
-	},
-	{
-		"source": "Claire Clivaz",
-		"target": "Daniele Morrone",
-		"value": 0.021100783114545274,
-		"tokens": {
-			"its": 71.12822817085146
+			"text": 99.36883718084502
 		}
 	},
 	{
@@ -13658,18 +13596,20 @@
 	{
 		"source": "Gianfranco Bandini",
 		"target": "Alessio Sopracasa",
-		"value": 0.03353363603277809,
+		"value": 0.0500417319457065,
 		"tokens": {
 			"tei": 69.21818325139428,
+			"encoding": 55.646826299620784,
 			"edition": 43.819712175982495
 		}
 	},
 	{
 		"source": "Andrea Mangiatordi",
 		"target": "Alessio Sopracasa",
-		"value": 0.03353363603277809,
+		"value": 0.0500417319457065,
 		"tokens": {
 			"tei": 69.21818325139428,
+			"encoding": 55.646826299620784,
 			"edition": 43.819712175982495
 		}
 	},
@@ -13698,54 +13638,6 @@
 		}
 	},
 	{
-		"source": "Claudia Bonsi",
-		"target": "Alessio Sopracasa",
-		"value": 0.012308790150151407,
-		"tokens": {
-			"its": 41.491466432996674
-		}
-	},
-	{
-		"source": "Angelo Di Iorio",
-		"target": "Alessio Sopracasa",
-		"value": 0.012308790150151407,
-		"tokens": {
-			"its": 41.491466432996674
-		}
-	},
-	{
-		"source": "Paola Italia",
-		"target": "Alessio Sopracasa",
-		"value": 0.012308790150151407,
-		"tokens": {
-			"its": 41.491466432996674
-		}
-	},
-	{
-		"source": "Francesca Tomasi",
-		"target": "Alessio Sopracasa",
-		"value": 0.012308790150151407,
-		"tokens": {
-			"its": 41.491466432996674
-		}
-	},
-	{
-		"source": "Fabio Vitali",
-		"target": "Alessio Sopracasa",
-		"value": 0.012308790150151407,
-		"tokens": {
-			"its": 41.491466432996674
-		}
-	},
-	{
-		"source": "Ersilia Russo",
-		"target": "Alessio Sopracasa",
-		"value": 0.012308790150151407,
-		"tokens": {
-			"its": 41.491466432996674
-		}
-	},
-	{
 		"source": "Martina Bürgermeister",
 		"target": "Alessio Sopracasa",
 		"value": 0.019499225551061625,
@@ -13756,42 +13648,45 @@
 	{
 		"source": "Claire Clivaz",
 		"target": "Alessio Sopracasa",
-		"value": 0.043780601332047676,
+		"value": 0.02927381294079781,
 		"tokens": {
-			"digital": 98.67853884762147,
-			"its": 48.90065686746037
+			"digital": 98.67853884762147
 		}
 	},
 	{
 		"source": "Simon Gabay",
 		"target": "Alessio Sopracasa",
-		"value": 0.007897750896950132,
+		"value": 0.015562223999381177,
 		"tokens": {
+			"encoding": 25.836026496252508,
 			"tei": 26.622378173613185
 		}
 	},
 	{
 		"source": "Lucie Rondeau du Noyer",
 		"target": "Alessio Sopracasa",
-		"value": 0.007897750896950132,
+		"value": 0.015562223999381177,
 		"tokens": {
+			"encoding": 25.836026496252508,
 			"tei": 26.622378173613185
 		}
 	},
 	{
 		"source": "Mohamed Khemakhem",
 		"target": "Alessio Sopracasa",
-		"value": 0.007897750896950132,
+		"value": 0.015562223999381177,
 		"tokens": {
+			"encoding": 25.836026496252508,
 			"tei": 26.622378173613185
 		}
 	},
 	{
 		"source": "Angelo Mario Del Grosso",
 		"target": "Alessio Sopracasa",
-		"value": 0.01263640143512021,
+		"value": 0.022069599099650727,
 		"tokens": {
-			"tei": 42.595805077781094
+			"tei": 42.595805077781094,
+			"encoding": 31.798186456926164
 		}
 	},
 	{
@@ -13808,6 +13703,14 @@
 		"value": 0.011583367982193525,
 		"tokens": {
 			"tei": 39.046154654632666
+		}
+	},
+	{
+		"source": "Isabella Magni",
+		"target": "Alessio Sopracasa",
+		"value": 0.011791497080663148,
+		"tokens": {
+			"encoding": 39.747733071157704
 		}
 	},
 	{
@@ -13845,14 +13748,6 @@
 		}
 	},
 	{
-		"source": "Daniele Morrone",
-		"target": "Alessio Sopracasa",
-		"value": 0.01802358557700742,
-		"tokens": {
-			"its": 60.75536156260228
-		}
-	},
-	{
 		"source": "Nicoletta Puddu",
 		"target": "Alessio Sopracasa",
 		"value": 0.01948111887914366,
@@ -13871,37 +13766,41 @@
 	{
 		"source": "Letizia Ricci",
 		"target": "Alessio Sopracasa",
-		"value": 0.020680859115410923,
+		"value": 0.02834533221784197,
 		"tokens": {
 			"tei": 31.94685380833582,
-			"digital": 37.76586054662056
+			"digital": 37.76586054662056,
+			"encoding": 25.836026496252508
 		}
 	},
 	{
 		"source": "Francesco Melighetti",
 		"target": "Alessio Sopracasa",
-		"value": 0.020680859115410923,
+		"value": 0.02834533221784197,
 		"tokens": {
 			"tei": 31.94685380833582,
-			"digital": 37.76586054662056
+			"digital": 37.76586054662056,
+			"encoding": 25.836026496252508
 		}
 	},
 	{
 		"source": "Federico Boschetti",
 		"target": "Alessio Sopracasa",
-		"value": 0.020680859115410923,
+		"value": 0.02834533221784197,
 		"tokens": {
 			"tei": 31.94685380833582,
-			"digital": 37.76586054662056
+			"digital": 37.76586054662056,
+			"encoding": 25.836026496252508
 		}
 	},
 	{
 		"source": "Enrica Salvatori",
 		"target": "Alessio Sopracasa",
-		"value": 0.020680859115410923,
+		"value": 0.02834533221784197,
 		"tokens": {
 			"tei": 31.94685380833582,
-			"digital": 37.76586054662056
+			"digital": 37.76586054662056,
+			"encoding": 25.836026496252508
 		}
 	},
 	{
@@ -13916,18 +13815,20 @@
 	{
 		"source": "Gianfranco Bandini",
 		"target": "Martina Filosa",
-		"value": 0.03353363603277809,
+		"value": 0.0500417319457065,
 		"tokens": {
 			"tei": 69.21818325139428,
+			"encoding": 55.646826299620784,
 			"edition": 43.819712175982495
 		}
 	},
 	{
 		"source": "Andrea Mangiatordi",
 		"target": "Martina Filosa",
-		"value": 0.03353363603277809,
+		"value": 0.0500417319457065,
 		"tokens": {
 			"tei": 69.21818325139428,
+			"encoding": 55.646826299620784,
 			"edition": 43.819712175982495
 		}
 	},
@@ -13956,54 +13857,6 @@
 		}
 	},
 	{
-		"source": "Claudia Bonsi",
-		"target": "Martina Filosa",
-		"value": 0.012308790150151407,
-		"tokens": {
-			"its": 41.491466432996674
-		}
-	},
-	{
-		"source": "Angelo Di Iorio",
-		"target": "Martina Filosa",
-		"value": 0.012308790150151407,
-		"tokens": {
-			"its": 41.491466432996674
-		}
-	},
-	{
-		"source": "Paola Italia",
-		"target": "Martina Filosa",
-		"value": 0.012308790150151407,
-		"tokens": {
-			"its": 41.491466432996674
-		}
-	},
-	{
-		"source": "Francesca Tomasi",
-		"target": "Martina Filosa",
-		"value": 0.012308790150151407,
-		"tokens": {
-			"its": 41.491466432996674
-		}
-	},
-	{
-		"source": "Fabio Vitali",
-		"target": "Martina Filosa",
-		"value": 0.012308790150151407,
-		"tokens": {
-			"its": 41.491466432996674
-		}
-	},
-	{
-		"source": "Ersilia Russo",
-		"target": "Martina Filosa",
-		"value": 0.012308790150151407,
-		"tokens": {
-			"its": 41.491466432996674
-		}
-	},
-	{
 		"source": "Martina Bürgermeister",
 		"target": "Martina Filosa",
 		"value": 0.019499225551061625,
@@ -14014,42 +13867,45 @@
 	{
 		"source": "Claire Clivaz",
 		"target": "Martina Filosa",
-		"value": 0.043780601332047676,
+		"value": 0.02927381294079781,
 		"tokens": {
-			"digital": 98.67853884762147,
-			"its": 48.90065686746037
+			"digital": 98.67853884762147
 		}
 	},
 	{
 		"source": "Simon Gabay",
 		"target": "Martina Filosa",
-		"value": 0.007897750896950132,
+		"value": 0.015562223999381177,
 		"tokens": {
+			"encoding": 25.836026496252508,
 			"tei": 26.622378173613185
 		}
 	},
 	{
 		"source": "Lucie Rondeau du Noyer",
 		"target": "Martina Filosa",
-		"value": 0.007897750896950132,
+		"value": 0.015562223999381177,
 		"tokens": {
+			"encoding": 25.836026496252508,
 			"tei": 26.622378173613185
 		}
 	},
 	{
 		"source": "Mohamed Khemakhem",
 		"target": "Martina Filosa",
-		"value": 0.007897750896950132,
+		"value": 0.015562223999381177,
 		"tokens": {
+			"encoding": 25.836026496252508,
 			"tei": 26.622378173613185
 		}
 	},
 	{
 		"source": "Angelo Mario Del Grosso",
 		"target": "Martina Filosa",
-		"value": 0.01263640143512021,
+		"value": 0.022069599099650727,
 		"tokens": {
-			"tei": 42.595805077781094
+			"tei": 42.595805077781094,
+			"encoding": 31.798186456926164
 		}
 	},
 	{
@@ -14066,6 +13922,14 @@
 		"value": 0.011583367982193525,
 		"tokens": {
 			"tei": 39.046154654632666
+		}
+	},
+	{
+		"source": "Isabella Magni",
+		"target": "Martina Filosa",
+		"value": 0.011791497080663148,
+		"tokens": {
+			"encoding": 39.747733071157704
 		}
 	},
 	{
@@ -14103,14 +13967,6 @@
 		}
 	},
 	{
-		"source": "Daniele Morrone",
-		"target": "Martina Filosa",
-		"value": 0.01802358557700742,
-		"tokens": {
-			"its": 60.75536156260228
-		}
-	},
-	{
 		"source": "Nicoletta Puddu",
 		"target": "Martina Filosa",
 		"value": 0.01948111887914366,
@@ -14129,37 +13985,41 @@
 	{
 		"source": "Letizia Ricci",
 		"target": "Martina Filosa",
-		"value": 0.020680859115410923,
+		"value": 0.02834533221784197,
 		"tokens": {
 			"tei": 31.94685380833582,
-			"digital": 37.76586054662056
+			"digital": 37.76586054662056,
+			"encoding": 25.836026496252508
 		}
 	},
 	{
 		"source": "Francesco Melighetti",
 		"target": "Martina Filosa",
-		"value": 0.020680859115410923,
+		"value": 0.02834533221784197,
 		"tokens": {
 			"tei": 31.94685380833582,
-			"digital": 37.76586054662056
+			"digital": 37.76586054662056,
+			"encoding": 25.836026496252508
 		}
 	},
 	{
 		"source": "Federico Boschetti",
 		"target": "Martina Filosa",
-		"value": 0.020680859115410923,
+		"value": 0.02834533221784197,
 		"tokens": {
 			"tei": 31.94685380833582,
-			"digital": 37.76586054662056
+			"digital": 37.76586054662056,
+			"encoding": 25.836026496252508
 		}
 	},
 	{
 		"source": "Enrica Salvatori",
 		"target": "Martina Filosa",
-		"value": 0.020680859115410923,
+		"value": 0.02834533221784197,
 		"tokens": {
 			"tei": 31.94685380833582,
-			"digital": 37.76586054662056
+			"digital": 37.76586054662056,
+			"encoding": 25.836026496252508
 		}
 	},
 	{
@@ -14174,7 +14034,7 @@
 	{
 		"source": "Alessio Sopracasa",
 		"target": "Martina Filosa",
-		"value": 0.695035200809593,
+		"value": 0.6918596579123452,
 		"tokens": {
 			"sigidoc": 416.4251682646869,
 			"byzantine": 356.048989981808,
@@ -14192,7 +14052,6 @@
 			"projects": 43.02170339303588,
 			"legend": 42.84032838151828,
 			"edition": 39.437740958384246,
-			"its": 38.5277902592112,
 			"indices": 36.790626642289574,
 			"coins": 36.21088419692929,
 			"athenaruby": 36.21088419692929,
@@ -14205,7 +14064,8 @@
 			"iconography": 30.66570675244973,
 			"diplomatic": 30.66570675244973,
 			"font": 30.66570675244973,
-			"publications": 29.859154836690127
+			"publications": 29.859154836690127,
+			"encoding": 27.823413149810392
 		}
 	},
 	{
@@ -17138,71 +16998,58 @@
 	{
 		"source": "Claudia Bonsi",
 		"target": "Gianluca Valenti",
-		"value": 0.038483685804087064,
+		"value": 0.02705409495037504,
 		"tokens": {
-			"texts": 91.19613372357178,
-			"its": 38.5277902592112
+			"texts": 91.19613372357178
 		}
 	},
 	{
 		"source": "Angelo Di Iorio",
 		"target": "Gianluca Valenti",
-		"value": 0.038483685804087064,
+		"value": 0.02705409495037504,
 		"tokens": {
-			"texts": 91.19613372357178,
-			"its": 38.5277902592112
+			"texts": 91.19613372357178
 		}
 	},
 	{
 		"source": "Paola Italia",
 		"target": "Gianluca Valenti",
-		"value": 0.038483685804087064,
+		"value": 0.02705409495037504,
 		"tokens": {
-			"texts": 91.19613372357178,
-			"its": 38.5277902592112
+			"texts": 91.19613372357178
 		}
 	},
 	{
 		"source": "Francesca Tomasi",
 		"target": "Gianluca Valenti",
-		"value": 0.038483685804087064,
+		"value": 0.02705409495037504,
 		"tokens": {
-			"texts": 91.19613372357178,
-			"its": 38.5277902592112
+			"texts": 91.19613372357178
 		}
 	},
 	{
 		"source": "Fabio Vitali",
 		"target": "Gianluca Valenti",
-		"value": 0.038483685804087064,
+		"value": 0.02705409495037504,
 		"tokens": {
-			"texts": 91.19613372357178,
-			"its": 38.5277902592112
+			"texts": 91.19613372357178
 		}
 	},
 	{
 		"source": "Ersilia Russo",
 		"target": "Gianluca Valenti",
-		"value": 0.038483685804087064,
+		"value": 0.02705409495037504,
 		"tokens": {
-			"texts": 91.19613372357178,
-			"its": 38.5277902592112
+			"texts": 91.19613372357178
 		}
 	},
 	{
 		"source": "Martina Bürgermeister",
 		"target": "Gianluca Valenti",
-		"value": 0.01092569219149761,
+		"value": 0.020780787280415335,
 		"tokens": {
+			"new": 33.22035245444414,
 			"number": 36.82920784990398
-		}
-	},
-	{
-		"source": "Claire Clivaz",
-		"target": "Gianluca Valenti",
-		"value": 0.013627589094810488,
-		"tokens": {
-			"its": 45.9369806936749
 		}
 	},
 	{
@@ -17232,11 +17079,19 @@
 		}
 	},
 	{
-		"source": "Daniele Morrone",
+		"source": "Fahad Khan",
 		"target": "Gianluca Valenti",
-		"value": 0.01714438628056803,
+		"value": 0.009385804846588307,
 		"tokens": {
-			"its": 57.7916853888168
+			"new": 31.638430908994415
+		}
+	},
+	{
+		"source": "Jack Bowers",
+		"target": "Gianluca Valenti",
+		"value": 0.009385804846588307,
+		"tokens": {
+			"new": 31.638430908994415
 		}
 	},
 	{
@@ -17328,22 +17183,6 @@
 		"value": 0.024452739666685132,
 		"tokens": {
 			"texts": 82.42727471168988
-		}
-	},
-	{
-		"source": "Alessio Sopracasa",
-		"target": "Gianluca Valenti",
-		"value": 0.010550391557272637,
-		"tokens": {
-			"its": 35.56411408542573
-		}
-	},
-	{
-		"source": "Martina Filosa",
-		"target": "Gianluca Valenti",
-		"value": 0.010550391557272637,
-		"tokens": {
-			"its": 35.56411408542573
 		}
 	},
 	{

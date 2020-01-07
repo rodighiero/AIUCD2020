@@ -61,8 +61,6 @@ export let s = {
 
     setScreen: () => {
 
-        const body = document.querySelector('body')
-
         // Screen density
 
         if ('devicePixelRatio' in window && window.devicePixelRatio > 1) {
@@ -70,29 +68,17 @@ export let s = {
             console.log('screen density:', s.screen.density)
         } else s.screen.density = 1
 
-
-        s.screen.width = body.clientWidth * s.screen.density
-        s.screen.height = body.clientHeight * s.screen.density
-
-        // Visualization canvas
-
-        s.canvas = d3.select('#visualization')
-
-        s.context = document.querySelector('#visualization').getContext('2d')
-        s.context.scale(s.screen.density, s.screen.density)
+        // Variables
 
         s.body = document.querySelector('body')
-
+        s.screen.width = s.body.clientWidth * s.screen.density
+        s.screen.height = s.body.clientHeight * s.screen.density
+        s.canvas = d3.select('#visualization')
+        s.context = document.querySelector('#visualization').getContext('2d')
         s.backgroud = d3.select('#background')
-
         s.bgContext = document.querySelector('#background').getContext('2d', { alpha: false })
-
         s.gradient = s.bgContext.createLinearGradient(0, 0, s.screen.width / 2, 0)
 
     },
-
-    // setMatches: (matches) => {
-    //     s.matches = matches;
-    // },
 
 }

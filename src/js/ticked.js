@@ -12,6 +12,8 @@ export default () => {
     
     s.screen.width = s.body.clientWidth * s.screen.density
     s.screen.height = s.body.clientHeight * s.screen.density
+
+    s.context.scale(s.screen.density, s.screen.density)
     
     s.canvas
         .style('width', `${s.body.clientWidth}px`).style('height', `${s.body.clientHeight}px`)

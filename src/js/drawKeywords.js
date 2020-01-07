@@ -3,7 +3,7 @@ import { s } from './state'
 export default () => {
 
     const max = 1
-    const rounding = 5
+    const rounding = 50
     const d_min = Math.pow(s.distance, 2) - rounding
     const d_max = Math.pow(s.distance * 2, 2) + rounding
     let rectangles = []
@@ -73,8 +73,7 @@ export default () => {
 
             tokens.forEach(([key, value]) => {
 
-                s.context.font = `normal 300 ${value * .1}pt Helvetica`
-                // s.context.font = `normal 300 ${s.fontScale(value) * 100}pt Helvetica`
+                s.context.font = `normal 300 ${value * .06}pt Helvetica`
                 s.context.fillText(key, x, y)
 
                 const width = s.context.measureText(key).width * 1.1

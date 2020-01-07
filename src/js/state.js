@@ -4,25 +4,22 @@ const fontSizeKeywords = 1.2
 
 export let s = {
 
-    distance: 40,
+    distance: 30,
     densityData: [],
     zoomState: null,
     zoomExtent: [1, 8],
     screen: {},
 
-    // Yellow d3.rgb(251, 253, 166)
-
     colors: {
-        backgroundLeft: d3.rgb(255, 144, 104),
-        backgroundRight: d3.rgb(253, 116, 108),
-        // contours: d3.rgb(251, 253, 166), // Lemon
-        contours: d3.rgb(251, 158, 129), // Pompelmus
-        keywords: d3.rgb(100, 79, 39),
-        nodes: d3.rgb(39, 72, 100), // Blue
+        backgroundLeft: d3.rgb(19, 92, 158), // Blu Cattolica
+        backgroundRight: d3.rgb(12, 60, 102),
+        contours: d3.rgb(256, 256, 256, .1),
+        keywords: d3.rgb(256, 256, 256, .2),
+        nodes: d3.rgb(216, 169, 21), // Giallo Cattolica
     },
 
     style: {
-        fontNodes: `bold 2.5pt Helvetica`
+        fontNodes: `normal 2.5pt Helvetica`
     },
 
     setVariables: () => {
@@ -46,15 +43,6 @@ export let s = {
             .domain(s.linkExtent)
             .range([s.zoomExtent[1] + 1, s.zoomExtent[0] - 5])
 
-        s.fontScale = d3.scaleLinear()
-            .domain(s.linkExtent)
-            .range([s.zoomExtent[0], s.zoomExtent[1] -10])
-
-        // Good results
-        // s.keywordScale = d3.scaleLinear()
-        //     .domain(s.linkExtent)
-        //     .range([s.zoomExtent[1] + 1, s.zoomExtent[0] - 20])
-
         s.geoPath = d3.geoPath().context(s.context)
 
     },
@@ -65,8 +53,8 @@ export let s = {
 
         if ('devicePixelRatio' in window && window.devicePixelRatio > 1) {
             s.screen.density = window.devicePixelRatio
-            console.log('screen density:', s.screen.density)
         } else s.screen.density = 1
+        console.log('screen density:', s.screen.density)
 
         // Variables
 

@@ -122,13 +122,13 @@ fs.readFile(__dirname + '/data/docs.json', (err, data) => {
 
     // Singularize
     const inflector = new natural.NounInflector()
-    const safeList = ['humanities', 'corpus', 'cervantes', 'apparatus']
+    const safeList = ['humanities', 'corpus', 'cervantes', 'apparatus', 'analysis']
     items.forEach(item => item.tokens = item.tokens.map(t =>
         safeList.includes(t) ? t : inflector.singularize(t)
     ))
 
     // Cleaning
-    const stopWords = ['thi', 'div', 'allora', '000', 'ved', 'thu', 'not', 'mos', 'will', 'attraverso', 'let', 'its', 'when', 'kaplan', 'vari', 'etc', 'http', 'org', 'exclusively']
+    const stopWords = ['thi', 'div', 'allora', '000', 'ved', 'thu', 'not', 'mos', 'will', 'attraverso', 'let', 'its', 'when', 'kaplan', 'vari', 'etc', 'http', 'org', 'exclusively', 'two', 'one', 'rodighiero', 'within', 'figure', 'high', 'figura', 'usati', 'proprio', 'qui', 'ogni']
     items.forEach(item => item.tokens = item.tokens.filter(token => token.length > 2))
     items.forEach(item => item.tokens = item.tokens.filter(token => !stopWords.includes(token)))
     items.forEach(item => item.tokens = item.tokens.filter(token => !parseInt(token)))
@@ -147,7 +147,7 @@ fs.readFile(__dirname + '/data/docs.json', (err, data) => {
     })
 
     // 15 is a good value for final version; it can be lowered for testing
-    const tfidfLimit = 30
+    const tfidfLimit = 200
 
     items.forEach((item, i) => {
         console.log('Reducing tokens for author #', i)

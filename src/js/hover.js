@@ -1,5 +1,7 @@
 import * as d3 from 'd3'
-import { s } from './state'
+import {
+    s
+} from './state'
 
 export default () => {
 
@@ -18,7 +20,8 @@ export default () => {
             if (dx * dx + dy * dy < radius * radius) {
 
                 const tokens = Object.entries(node.tokens).reduce((tokens, token) => {
-                    tokens.push(`${token[0]} (${token[1].toFixed(2)})`)
+                    if (tokens.length < 30)
+                        tokens.push(`${token[0]} (${token[1].toFixed(2)})`)
                     return tokens
                 }, [])
 

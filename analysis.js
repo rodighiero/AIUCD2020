@@ -1,4 +1,3 @@
-
 /////////////////////////////
 // Libraries
 /////////////////////////////
@@ -123,10 +122,13 @@ fs.readFile(__dirname + '/data/docs.json', (err, data) => {
 
     // Singularize
     const inflector = new natural.NounInflector()
-    // items.forEach(item => item.tokens = item.tokens.map(t => inflector.singularize(t)))
+    const safeList = ['humanities', 'corpus', 'cervantes']
+    items.forEach(item => item.tokens = item.tokens.map(t =>
+        safeList.includes(t) ? t : inflector.singularize(t)
+    ))
 
     // Cleaning
-    const stopWords = ['thi', 'div', 'allora', '000', 'ved', 'thu', 'not', 'mos', 'will', 'attraverso', 'let', 'its']
+    const stopWords = ['thi', 'div', 'allora', '000', 'ved', 'thu', 'not', 'mos', 'will', 'attraverso', 'let', 'its', 'when', 'kaplan', 'vari', 'etc', 'http', 'org']
     items.forEach(item => item.tokens = item.tokens.filter(token => token.length > 2))
     items.forEach(item => item.tokens = item.tokens.filter(token => !stopWords.includes(token)))
     items.forEach(item => item.tokens = item.tokens.filter(token => !parseInt(token)))
@@ -176,8 +178,10 @@ fs.readFile(__dirname + '/data/docs.json', (err, data) => {
 
     pairs.forEach(pair => {
 
-        const p1 = pair[0], p2 = pair[1]
-        const t1 = p1.tokens, t2 = p2.tokens
+        const p1 = pair[0],
+            p2 = pair[1]
+        const t1 = p1.tokens,
+            t2 = p2.tokens
         const tokens = Object.keys(p1.tokens).filter(n => Object.keys(p2.tokens).includes(n))
 
         maxCommonTokens = maxCommonTokens > tokens.length ? maxCommonTokens : tokens.length
@@ -193,16 +197,14 @@ fs.readFile(__dirname + '/data/docs.json', (err, data) => {
                 link.value += value
                 link.tokens[token] = value
             } else {
-                links.push(
-                    {
-                        source: p1.id,
-                        target: p2.id,
-                        value: value,
-                        tokens: {
-                            [token]: value,
-                        }
+                links.push({
+                    source: p1.id,
+                    target: p2.id,
+                    value: value,
+                    tokens: {
+                        [token]: value,
                     }
-                )
+                })
             }
 
         })
@@ -227,10 +229,18 @@ fs.readFile(__dirname + '/data/docs.json', (err, data) => {
     console.log(`   minLinkValue : ${minLinkValue}`)
     console.log(`maxCommonTokens : ${maxCommonTokens}`)
 
-    fs.writeFile('./src/data/nodes.json', JSON.stringify(nodes), err => { if (err) throw err })
-    fs.writeFile('./src/data/links.json', JSON.stringify(links), err => { if (err) throw err })
-    fs.writeFile('./data/nodes.json', JSON.stringify(nodes, null, '\t'), err => { if (err) throw err })
-    fs.writeFile('./data/links.json', JSON.stringify(links, null, '\t'), err => { if (err) throw err })
+    fs.writeFile('./src/data/nodes.json', JSON.stringify(nodes), err => {
+        if (err) throw err
+    })
+    fs.writeFile('./src/data/links.json', JSON.stringify(links), err => {
+        if (err) throw err
+    })
+    fs.writeFile('./data/nodes.json', JSON.stringify(nodes, null, '\t'), err => {
+        if (err) throw err
+    })
+    fs.writeFile('./data/links.json', JSON.stringify(links, null, '\t'), err => {
+        if (err) throw err
+    })
 
 
 

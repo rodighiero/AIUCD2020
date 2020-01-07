@@ -81,25 +81,13 @@ export let s = {
         s.context = document.querySelector('#visualization').getContext('2d')
         s.context.scale(s.screen.density, s.screen.density)
 
-        s.canvas
-            .style('width', `${body.clientWidth}px`).style('height', `${body.clientHeight}px`)
-            .attr('width', s.screen.width).attr('height', s.screen.height)
+        s.body = document.querySelector('body')
 
-        // Background canvas
+        s.backgroud = d3.select('#background')
 
-        d3.select('#background')
-            .style('width', `${body.clientWidth}px`).style('height', `${body.clientHeight}px`)
-            .attr('width', s.screen.width).attr('height', s.screen.height)
+        s.bgContext = document.querySelector('#background').getContext('2d', { alpha: false })
 
-        const bgContext = document.querySelector('#background').getContext('2d', { alpha: false })
-
-        const gradient = bgContext.createLinearGradient(0, 0, s.screen.width / 2, 0)
-
-        gradient.addColorStop(0, s.colors.backgroundLeft)
-        gradient.addColorStop(1, s.colors.backgroundRight)
-
-        bgContext.fillStyle = gradient
-        bgContext.fillRect(0, 0, s.screen.width, s.screen.height)
+        s.gradient = s.bgContext.createLinearGradient(0, 0, s.screen.width / 2, 0)
 
     },
 

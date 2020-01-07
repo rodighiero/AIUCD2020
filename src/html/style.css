@@ -14,7 +14,7 @@
 	font-family: Arial, Helvetica, sans-serif;
 }
 
-body, html, canvas {
+body, html {
 	color: rgb(255,255,255);
 	overflow: hidden;
 	margin: 0;

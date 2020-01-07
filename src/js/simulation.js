@@ -1,5 +1,7 @@
 import * as d3 from 'd3'
-import { s } from './state'
+import {
+    s
+} from './state'
 import ticked from './ticked'
 
 window.s = s
@@ -59,6 +61,15 @@ export default () => {
         simulation.stop()
         simulation.tick(100)
         s.end = true
+    }
+
+    
+    //
+    // Refresh on resize
+    //
+
+    window.onresize = function reportWindowSize() {
+        ticked()
     }
 
 

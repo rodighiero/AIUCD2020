@@ -122,13 +122,13 @@ fs.readFile(__dirname + '/data/docs.json', (err, data) => {
 
     // Singularize
     const inflector = new natural.NounInflector()
-    const safeList = ['humanities', 'corpus', 'cervantes', 'apparatus', 'analysis']
+    const safeList = ['humanities', 'corpus', 'cervantes', 'apparatus', 'analysis', 'politics']
     items.forEach(item => item.tokens = item.tokens.map(t =>
         safeList.includes(t) ? t : inflector.singularize(t)
     ))
 
     // Cleaning
-    const stopWords = ['thi', 'div', 'allora', '000', 'ved', 'thu', 'not', 'mos', 'will', 'attraverso', 'let', 'its', 'when', 'kaplan', 'vari', 'etc', 'http', 'org', 'exclusively', 'two', 'one', 'rodighiero', 'within', 'figure', 'high', 'figura', 'usati', 'proprio', 'qui', 'ogni', 'allowed', 'used', 'section', 'example', 'marginally', 'appear', 'quindi', 'qualit']
+    const stopWords = ['thi', 'div', 'allora', '000', 'ved', 'thu', 'not', 'mos', 'will', 'attraverso', 'let', 'its', 'when', 'kaplan', 'vari', 'etc', 'http', 'org', 'exclusively', 'two', 'one', 'rodighiero', 'within', 'figure', 'high', 'figura', 'usati', 'proprio', 'qui', 'ogni', 'allowed', 'used', 'section', 'example', 'marginally', 'appear', 'quindi', 'qualit', 'use']
     items.forEach(item => item.tokens = item.tokens.filter(token => token.length > 2))
     items.forEach(item => item.tokens = item.tokens.filter(token => !stopWords.includes(token)))
     items.forEach(item => item.tokens = item.tokens.filter(token => !parseInt(token)))

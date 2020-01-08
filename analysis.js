@@ -128,7 +128,7 @@ fs.readFile(__dirname + '/data/docs.json', (err, data) => {
     ))
 
     // Cleaning
-    const stopWords = ['thi', 'div', 'allora', '000', 'ved', 'thu', 'not', 'mos', 'will', 'attraverso', 'let', 'its', 'when', 'kaplan', 'vari', 'etc', 'http', 'org', 'exclusively', 'two', 'one', 'rodighiero', 'within', 'figure', 'high', 'figura', 'usati', 'proprio', 'qui', 'ogni']
+    const stopWords = ['thi', 'div', 'allora', '000', 'ved', 'thu', 'not', 'mos', 'will', 'attraverso', 'let', 'its', 'when', 'kaplan', 'vari', 'etc', 'http', 'org', 'exclusively', 'two', 'one', 'rodighiero', 'within', 'figure', 'high', 'figura', 'usati', 'proprio', 'qui', 'ogni', 'allowed', 'used', 'section', 'example', 'marginally', 'appear', 'quindi', 'qualit']
     items.forEach(item => item.tokens = item.tokens.filter(token => token.length > 2))
     items.forEach(item => item.tokens = item.tokens.filter(token => !stopWords.includes(token)))
     items.forEach(item => item.tokens = item.tokens.filter(token => !parseInt(token)))

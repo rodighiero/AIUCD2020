@@ -20,28 +20,28 @@
   },
   "homepage": "https://github.com/rodighiero/AIUCD2020#readme",
   "devDependencies": {
-    "@babel/core": "^7.7.7",
-    "@babel/preset-env": "^7.7.7",
-    "babel-loader": "^8.0.6",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "babel-loader": "^8.1.0",
     "cheerio": "^1.0.0-rc.3",
-    "css-loader": "^3.4.1",
-    "file-loader": "^5.0.2",
-    "franc-min": "^4.1.1",
+    "css-loader": "^3.4.2",
+    "file-loader": "^6.0.0",
+    "franc-min": "^5.0.0",
     "fs": "0.0.2",
-    "html-loader": "^0.5.5",
-    "html-webpack-plugin": "^3.2.0",
+    "html-loader": "^1.1.0",
+    "html-webpack-plugin": "^4.0.4",
     "js-combinatorics": "^0.5.5",
     "mini-css-extract-plugin": "^0.9.0",
     "natural": "^0.6.3",
     "remove-accents": "^0.4.2",
-    "request": "^2.88.0",
+    "request": "^2.88.2",
     "request-promise": "^4.2.5",
-    "stopword": "^0.3.4",
-    "webpack": "^4.41.5",
-    "webpack-cli": "^3.3.10",
-    "webpack-dev-server": "^3.10.1"
+    "stopword": "^1.0.0",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
   },
   "dependencies": {
-    "d3": "^5.15.0"
+    "d3": "^5.15.1"
   }
 }
